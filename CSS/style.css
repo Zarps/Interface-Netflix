@@ -42,6 +42,11 @@ header nav a:hover {
     color: #fff;
 }
 
+.usuario {
+    height: 40px;
+    border-radius: 8px;
+}
+
 /* filme principal */
 
 .filme-principal {
@@ -58,8 +63,28 @@ header nav a:hover {
     
 }
 
+.filme-principal2 {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../Img/Aliceinborderland.jpg'); 
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: none;
+}
+
 
 .filme-principal .descricao {
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal2 .descricao {
 
     margin-top: 10px;
     margin-bottom: 40px;
@@ -103,6 +128,10 @@ header nav a:hover {
     width: 65%;
 }
 
+.filme-principal2 .container {
+    width: 65%;
+}
+
 .box-filme {
     height: 100%;
     width: 100%;
@@ -135,4 +164,12 @@ header nav a:hover {
 
 .fa-github:hover {
     color: rgb(110, 110, 110);
+}
+
+.listas {
+    font-size: 40px;
+    font-weight: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8px;
+    margin-left: 1%;
 }

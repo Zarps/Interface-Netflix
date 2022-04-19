@@ -9,6 +9,14 @@
         width: 180px;
         height: 60px;
     }
+    
+    .usuario {
+        height: 30px;
+    }
+
+    .listas {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width:1000px) {

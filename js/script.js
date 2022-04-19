@@ -14,3 +14,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+const listaSelecaofilmes = document.querySelectorAll('.item')
+const cardfilme = document.querySelectorAll('.filme-principal')
+
